@@ -1,0 +1,30 @@
+.sub{
+    background-color: #232F3E;
+    color: aliceblue;
+    display: flex;
+    justify-content:left;
+    gap: 2vw;
+    padding-left: 2.5vw;
+    font-size: 1vw;
+    height: 38px;
+    padding: 0.7vw 2.3vw;
+}
+.sub h5{
+    font-size: 1vw;
+}
+@media(max-width:610px){
+    .sub{
+        background-color: #232F3E;
+        color: aliceblue;
+        display: flex;
+        justify-content:space-between;
+        gap: 2vw;
+        padding-left: 2.5vw;
+        font-size: 1vw;
+        height: 38px;
+        padding: 1vw 1vw;
+    }
+    .sub h5{
+        font-size: 2.5vw;
+    }
+}
